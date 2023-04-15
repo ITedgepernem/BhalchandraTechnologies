@@ -137,7 +137,7 @@ h1, h2, h3, h4, h5, h6
 	-webkit-text-shadow: rgba(0,0,0,.01) 0 0 1px;
 	text-shadow: rgba(0,0,0,.01) 0 0 1px;
 }
-h1::selection, 
+/* h1::selection, 
 h2::selection, 
 h3::selection, 
 h4::selection, 
@@ -145,7 +145,7 @@ h5::selection,
 h6::selection
 {
 	
-}
+} */
 ::-webkit-input-placeholder
 {
 	font-size: 14px !important;
@@ -318,23 +318,21 @@ section
 /*********************************
 3.1 Logo
 *********************************/
-
 .logo_container
 {
 	display: inline-block;
-	padding-left: 76px;
+	padding-left: 15px;
 }
 .logo span
 {
 	font-family: 'Open Sans', sans-serif;
-	font-size: 30px;
+	font-size: 25px;
 	font-weight: 900;
 	color: #3a3a3a;
 	vertical-align: middle;
 	text-transform: uppercase;
 	margin-left: 3px;
 }
-
 /*********************************
 3.2 Main Nav
 *********************************/
@@ -343,7 +341,7 @@ section
 {
 	display: inline-block;
 	margin-left: auto;
-	padding-right: 93px;
+	padding-right: 50px;
 }
 .main_nav
 {
@@ -352,7 +350,7 @@ section
 .main_nav_item
 {
 	display: inline-block;
-	margin-right: 40px;
+	margin-right: 32px;
 }
 .main_nav_item:last-child
 {
@@ -691,10 +689,10 @@ section
 	padding-top: 117px;
 	padding-bottom: 117px;
 }
-.section_title
+/* .section_title
 {
 
-}
+} */
 .section_title h1
 {
 	display: block;
@@ -748,10 +746,10 @@ section
 9. Popular
 *********************************/
 
-.popular
+/* .popular
 {
 
-}
+} */
 .course_boxes
 {
 	margin-top: 68px;
@@ -799,16 +797,27 @@ section
 }
 .card-text
 {
-	font-size: 14px;
+	font-size: 20px;
 	font-weight: 500;
-	color: #a5a5a5;
+	color: #022a4a;
 	margin-top: -12px;
+
+
 }
+.card-text :hover
+{
+	color: #a5a5a5;
+}
+#more {
+	display: none;
+}
+
 .price_box
 {
 	width: 100%;
 	height: 67px;
-	background: #eaebec;
+	/* background: #eaebec; */
+	background: #ffb606;
 	margin-top: 41px;
 	padding-left: 35px;
 }
@@ -821,15 +830,32 @@ section
 }
 .course_author_name
 {
-	font-size: 14px;
-	font-weight: 500;
+	font-size: 20px;
+	font-weight: 1000;
 	color: #1a1a1a;
 	padding-left: 20px;
 	margin-top: 7px;
+
+	
 }
 .course_author_name span
 {
-	color: #a5a5a5;
+	color: #241f1f;
+}
+.course_author_names
+{
+	font-size: 20px;
+	font-weight: 1000;
+	color: #1a1a1a;
+	
+	margin-top: 7px;
+
+	
+}
+.course_author_names span
+{
+	
+	color: #241f1f;
 }
 .course_price
 {
@@ -847,7 +873,7 @@ section
 }
 
 /*********************************
-10. Footer
+12. Footer
 *********************************/
 
 .footer
@@ -862,7 +888,7 @@ section
 }
 
 /*********************************
-10.1 Newsletter
+12.1 Newsletter
 *********************************/
 
 .newsletter
@@ -905,7 +931,7 @@ section
 }
 
 /*********************************
-10.2 Footer Content
+12.2 Footer Content
 *********************************/
 
 .footer_content 
