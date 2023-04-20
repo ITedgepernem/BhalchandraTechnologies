@@ -410,6 +410,11 @@ section
 	padding-left: 12px;
 }
 
+.header_sidee:hover {
+  color: #fff;
+  background: #15974d;
+}
+
 /*********************************
 3.4 Hamburger
 *********************************/
