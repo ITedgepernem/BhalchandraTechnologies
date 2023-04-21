@@ -343,7 +343,6 @@ section
 	text-transform: uppercase;
 	margin-left: 3px;
 }
-
 /*********************************
 3.2 Main Nav
 *********************************/
@@ -408,11 +407,6 @@ section
 	font-weight: 500;
 	color: #FFFFFF;
 	padding-left: 12px;
-}
-
-.header_sidee:hover {
-  color: #fff;
-  background: #15974d;
 }
 
 /*********************************
